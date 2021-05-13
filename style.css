@@ -1,0 +1,141 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    color: yellow;
+    text-shadow: 
+        2px 2px 5px red, 
+        2px -2px 5px red, 
+        -2px 2px 5px red, 
+        -2px -2px 5px red;
+    margin: 5px;
+}
+
+h3, #score {
+    color: white;
+    margin: 2px 0 0;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.grid {
+    width: 504px;
+    height: 504px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    height: 18px;
+    width: 18px;
+}
+
+.pac-dot {
+    background-image: linear-gradient(145deg, black 0% 40%, rgb(230, 230, 44) 41% 59%, black 60%);
+    box-sizing: border-box;
+    border: 5px solid black;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+}
+
+.wall {
+    background-image: linear-gradient(to bottom,
+    black 1%,
+    rgb(143, 106, 59) 4%,
+    rgb(105, 40, 40) 20% 80%,
+    rgb(143, 106, 59) 99%,
+    black 100%);
+}
+
+.power-pellet {
+    background-image: linear-gradient(to bottom, rgb(238, 231, 220) 20%, rgb(187, 187, 45) 21% 100%);
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    border-radius: 0 0 6px 6px;
+}
+
+.pac-man {
+    background-color: yellow;
+    border-radius: 50%;
+    border: none;
+}
+
+.blinky {
+    background-image: linear-gradient(to right, 
+        red 0% 30%,
+        white 30% 38%,
+        red 38% 46%,
+        white 46% 54%,
+        red 54% 62%,
+        white 62% 70%,
+        red 70% 100%);
+    border-radius: 50%;
+    border: none;
+}
+
+.pinky {
+    background-image: linear-gradient(to right, 
+        deeppink 0% 30%,
+        white 30% 38%,
+        deeppink 38% 46%,
+        white 46% 54%,
+        deeppink 54% 62%,
+        white 62% 70%,
+        deeppink 70% 100%);
+    border-radius: 50%;
+    border: none;
+}
+
+.inky {
+    background-image: linear-gradient(to right, 
+        dodgerblue 0% 30%,
+        white 30% 38%,
+        dodgerblue 38% 46%,
+        white 46% 54%,
+        dodgerblue 54% 62%,
+        white 62% 70%,
+        dodgerblue 70% 100%);
+    border-radius: 50%;
+    border: none;
+}
+
+.clyde {
+    background-image: linear-gradient(to right, 
+        darkorange 0% 30%,
+        white 30% 38%,
+        darkorange 38% 46%,
+        white 46% 54%,
+        darkorange 54% 62%,
+        white 62% 70%,
+        darkorange 70% 100%);
+    border-radius: 50%;
+    border: none;
+}
+
+.scared-ghost {
+    background-image: linear-gradient(to right, 
+        darkblue 0% 30%,
+        white 30% 38%,
+        darkblue 38% 46%,
+        white 46% 54%,
+        darkblue 54% 62%,
+        white 62% 70%,
+        darkblue 70% 100%);
+    border-radius: 50%;
+    border: none;
+}
